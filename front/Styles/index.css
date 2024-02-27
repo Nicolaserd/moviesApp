@@ -1,0 +1,149 @@
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+h1{
+    color: aqua;
+    font-size: 1.5em ;
+}
+h2{
+    color: aliceblue;
+    font-size: 1em;
+}
+p{
+    color: aliceblue;
+    font-size: 0.7em;
+}
+
+a{
+    text-decoration: none; 
+    
+}
+footer{
+    color: aliceblue;
+    font-size: 0.7em;
+}
+
+
+.h_section{
+    margin: 1rem;
+   
+}
+
+
+#container_cards{
+    max-width: 75rem;
+    margin: 1rem auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    padding: 1.25rem;
+        
+}
+
+.card{
+    
+    border: 0.125rem solid aqua;
+    box-shadow: .3125rem .3125rem .625rem rgba(248, 247, 247, 0.5); 
+    background-color: black;
+    overflow-y: auto;
+    margin-bottom: .625rem;
+    width: 16.5625rem;
+    height: 22.875rem;
+    
+
+}
+.card:hover{
+    .imgCard{
+        transform: scale(1.1);
+        transition: all 500ms ease;
+    }
+    .tiutuloCard{
+        box-shadow: 0px 0px .625rem 0px rgba(248, 247, 247, 0.5);
+        transform:none;
+        color: yellow;
+        transition: all 500ms ease;
+    }
+}
+.imgCard{
+    height: 9rem;
+    max-width: 8rem;
+    transition: all 250ms ease;
+}
+.descripcionCard{
+    max-height: 10rem;
+    width: auto;
+    box-shadow: .3125rem .3125rem .625rem rgba(248, 247, 247, 0.5); 
+    background-color: black;
+    margin: .625rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    padding: .3125rem;
+}
+
+
+.parr{
+    font-size: 1em;
+}
+.tiutuloCard{
+
+    color: antiquewhite;
+    transition: all 250ms ease;
+    
+}
+.imgC{
+    max-height
+    : 30rem;
+}
+
+
+#carouselExampleIndicators
+{
+    width: 29rem;
+    height: 30rem;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+
+}
+.carousel-inner{
+    max-width: 100%;
+    display: flex;
+    justify-content:stretch;
+}
+.imgCarousel{
+    height: 1rem;
+}
+.sr-only{
+    font-size: 1em;
+    color: aqua;
+}
+.carousel-indicators{
+    height: .125rem;
+}
+.gift{
+    width: 30%;
+    height: 28.6875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2 rem;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.imgGift{
+    height: 25%;
+    width: 14rem;
+    margin: 1rem;
+    border-radius: .625rem;
+}
+#contenedor_carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

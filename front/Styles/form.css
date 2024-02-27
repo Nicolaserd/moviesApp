@@ -1,0 +1,80 @@
+.formMovie{
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+    background:  rgb(58, 57, 57);
+    border: 0.09rem aqua;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 18.75rem;
+    height: auto;
+    gap: .625rem;
+    justify-items: center;
+}
+.inputform{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    overflow: auto; 
+    
+}
+.form-control{
+    width: 70%;
+}
+#buttonForm{
+   
+    color: aqua;
+    background-color: black;
+    transition: all 500ms ease;
+}
+#buttonForm:hover{
+    box-shadow: 0px 0px .625rem 0px rgba(248, 247, 247, 0.5);
+}
+#clearButton{
+    color: aqua;
+    background-color: black;
+    transition: all 500ms ease;
+}
+#clearButton:hover{
+    box-shadow: 0px 0px .625rem 0px rgba(248, 247, 247, 0.5);
+}
+.movie-card {
+    border: 1px solid #ccc;
+    border-radius: .3125rem;
+    padding: .625rem;
+    margin-top: 1.25rem;
+   
+}
+
+.movie-card h2 {
+    margin-top: 0;
+    color: aqua;
+}
+
+p{
+    color: aqua;
+}
+.movie-card img {
+    max-width: 31.25rem;
+    height: auto;
+    margin-top: .625rem;
+
+}
+#movieCardContainer{
+    display: flex;
+    flex-direction: column;
+    
+
+    margin: auto;
+    max-width: fit-content;
+
+}
+#botones{
+    display: flex;
+    justify-content: space-between;
+    gap: .3125rem;
+}

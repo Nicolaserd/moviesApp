@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADD Movie</title>
+
+    <meta name="author" content="Nicolás I.G.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#CB1438">
+    <meta name="description" content="Movies de nicolás I.G. breve resumen">
+    <meta property="og:title" content="Movies nicolás I.G." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://cdn-icons-png.flaticon.com/128/705/705062.png" />
+
+    <link rel="stylesheet" href="/front/Styles/reset.css">
+    <link rel="stylesheet" href="/front/Styles/index.css">
+    <link rel="stylesheet" href="/front/Styles/menu.css">
+    <link rel="stylesheet" href="../Styles/form.css">
+  </head>
+  <body>
+    <header id="menu">
+      
+      <div class="top-bar">
+        <div class="icon-menu" id="icon-menu">
+            <div class="icon-menu__bar"></div>
+        </div>
+    </div>
+    <nav>
+        <ul class="menu" id="main-menu">
+            <li class="menu__item"><a href="/front/index.html" class="menu__link">Home</a></li>
+            <li class="menu__item"><a href="/front/Pages/history.html" class="menu__link">History</a></li>
+            <li class="menu__item"><a href="/front/Pages/A-me.html" class="menu__link">About us</a></li>
+            <li class="menu__item"><a href="/front/Pages/createMovie.html" class="menu__link">Create movie</a></li> 
+        </ul>
+    </nav>
+    </header>
+    <section>
+      <header class="h_section"><h1>Add Movie</h1></header>
+      <form class="formMovie">
+        <div class="inputform">
+          <label for="title">Title</label>
+          <input type="text" class="form-control" id="title" placeholder="Guardians of the Galaxy Vol. 2">
+        </div>
+        <div class="inputform">
+          <label for="year">Year</label>
+          <input type="number" class="form-control" id="year" placeholder="2017">
+        </div>
+        <div class="inputform">
+          <label for="director">Director</label>
+          <input type="text" class="form-control" id="director" placeholder="James Gunn">
+        </div>
+        <div class="inputform">
+          <label for="duration">Duration</label>
+          <input type="text" class="form-control" id="duration" placeholder="2h 16min">
+        </div>
+        <div class="inputform">
+          <label for="genre">Genre</label>
+          <input type="text" class="form-control" id="genre" placeholder="Action, Adventure, Comedy">
+        </div>
+        <div class="inputform">
+          <label for="rate">Rate</label>
+          <input type="number" class="form-control" id="rate"step="any" placeholder="7.7">
+        </div>
+        <div class="inputform">
+          <label for="poster">Poster</label>
+          <input type="text" class="form-control" id="poster" placeholder="https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg">
+        </div>
+        <div id="botones">
+          <button id="buttonForm">Agregar </button>
+          <button id="clearButton">Limpiar</button>
+
+        </div>
+     
+       
+      </form>
+
+
+    </section>
+    <div id="movieCardContainer"></div>
+    <footer>
+      <span>
+        Hecho por <strong>Nicolás I.G.</strong></span></br>
+        Todos los derechos resrevados &copy; 2024</span>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../scripts/validarFormMovie.js"></script>
+    <script src="../scripts/menu-pages.js"></script>
+
+  </body>
+</html>
